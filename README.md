@@ -1,27 +1,14 @@
 # HeroesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Esta aplicación consiste en un listado de héroes. Se pueden buscar, agregar uno nuevo, editarlo, actualizarlo o eliminarlo. Se ha generado con la versión 16.0.3 de [Angular CLI](https://github.com/angular/angular-cli), con la versión 18.16.0 de NodeJS y con la versión 9.6.6 de npm.
 
-## Development server
+## Iniciar aplicación y servidor de desarrollo (sólo en Dev)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Ejecutar el comando `npm start` o `ng serve` y acceder a la URL `http://localhost:4200` para iniciar la aplicación.
 
-## Code scaffolding
+* Para mantener abierta la **base de datos** de los héroes, hay que seguir estos pasos:
+    - Instalar el paquete de NodeJS llamado [Json Server](https://www.npmjs.com/package/json-server) para crear una API REST falsa a partir de un archivo JSON y así poder trabajar con el backend.
+    - Ejecutar el comando `npm run backend` para levantar el backend que contiene todos los héroes. Este comando SIEMPRE se ha de estar ejecutando.
+    - Tener abierto el Postman para consultar las diferentes URLs a las cuáles acceder. Por ejemplo, para ver los héroes, al URL es `http://localhost:3000/heroes`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Para los **estilos y temas**, se ha utilizado [Angular Material](https://material.angular.io) y [PrimeFlex](https://www.primefaces.org/primeflex).
