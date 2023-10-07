@@ -1,0 +1,191 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "usuario": "Amin El Meziani",
+        "email": "amin.elmeziani@gmail.com"
+      }
+    ],
+    "heroes": [
+      {
+        "id": "dc-batman",
+        "superhero": "Batman",
+        "publisher": "DC Comics",
+        "alter_ego": "Bruce Wayne",
+        "first_appearance": "Detective Comics #27",
+        "characters": "Bruce Wayne",
+        "description": "Batman es la identidad secreta de Bruce Wayne, un empresario multimillonario, galán y filántropo. Presenció el asesinato de sus padres cuando era niño lo marcó profundamente y lo llevó a entrenarse en la perfección física e intelectual para ponerse un disfraz de murciélago con el fin de combatir el crimen."
+      },
+      {
+        "id": "dc-superman",
+        "superhero": "Superman",
+        "publisher": "DC Comics",
+        "alter_ego": "Kal-El",
+        "first_appearance": "Action Comics #1",
+        "characters": "Kal-El",
+        "description": "Es el superhéroe más reconocido en la cultura pop. Superman ha sido elevado al estado mítico folkhero. El bebé Kal-El llegó a la Tierra desde el planeta moribundo Krypton y fue encontrado por una pareja de granjeros que lo nombró Clark Kent y lo crió como propio. Descubriendo sus enormes poderes, le inculcaron fuertes valores morales y lo inspiraron a convertirse en un héroe."
+      },
+      {
+        "id": "dc-flash",
+        "superhero": "Flash",
+        "publisher": "DC Comics",
+        "alter_ego": "Jay Garrick",
+        "first_appearance": "Flash Comics #1",
+        "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+        "description": "Apodado como el “Corredor Escarlata”, todas las encarnaciones de Flash poseen súper velocidad, que incluye la capacidad de correr, moverse y pensar extremadamente rápido, también puede atravesar la materia sólida, usar reflejos sobrehumanos y aparentemente violar ciertas leyes de la física, como superar la velocidad de la luz."
+      },
+      {
+        "id": "dc-green",
+        "superhero": "Linterna Verde",
+        "publisher": "DC Comics",
+        "alter_ego": "Alan Scott",
+        "first_appearance": "All-American Comics #16",
+        "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
+        "description": "Es el nombre de varios superhéroes del universo de ficción de la editorial DC Comics, los cuales se caracterizan por portar un anillo de poder y una batería en forma de linterna que otorga al portador la capacidad de crear manifestaciones de luz verde sólida con ellos."
+      },
+      {
+        "id": "dc-arrow",
+        "superhero": "Green Arrow",
+        "publisher": "DC Comics",
+        "alter_ego": "Oliver Queen",
+        "first_appearance": "More Fun Comics #73",
+        "characters": "Oliver Queen",
+        "description": "Es un superhéroe justiciero que lucha contra el crimen con las artes marciales, tiro con arco y tecnología. En su identidad secreta es Oliver Queen, que vive en Cuidad Estrella como un rico playboy multimillonario y empresario convertido en político liberal franco."
+      },
+      {
+        "id": "dc-wonder",
+        "superhero": "Wonder Woman",
+        "publisher": "DC Comics",
+        "alter_ego": "Princess Diana",
+        "first_appearance": "All Star Comics #8",
+        "characters": "Princess Diana",
+        "description": "Es una princesa guerrera de las Amazonas. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince. Está dotada de una amplia gama de poderes superhumanos y habilidades de combate de batalla superiores, gracias a sus dones obtenidos de los dioses y su amplio entrenamiento."
+      },
+      {
+        "id": "dc-martian",
+        "superhero": "Martian Manhunter",
+        "publisher": "DC Comics",
+        "alter_ego": "J\"onn J\"onzz",
+        "first_appearance": "Detective Comics #225",
+        "characters": "Martian Manhunter",
+        "description": "J'onzz es nativo del planeta Marte, conocido en su lengua natal como Ma'aleca'andra. Posee habilidades que van más allá de las de un hombre común, incluyendo telepatía y la habilidad de cambiar de forma. Es muy sensible al fuego; en algunas historias esto es una debilidad física, mientras que en otras es una debilidad psicológica. "
+      },
+      {
+        "id": "dc-robin",
+        "superhero": "Robin",
+        "publisher": "DC Comics",
+        "alter_ego": "Dick Grayson",
+        "first_appearance": "Detective Comics #38",
+        "characters": "Dick Grayson",
+        "description": "Es un acróbata experto y gimnasta con un amplio conocimiento del combate cuerpo a cuerpo y de las técnicas de artes marciales. Entrenado en la deducción y la investigación así como en el uso de una amplia variedad de tecnologías para luchar contra el crimen, Robin ha llevado un traje repleto de trucos con un increíble cantidad de bolsillos y compartimentos."
+      },
+      {
+        "id": "dc-blue",
+        "superhero": "Blue Beetle",
+        "publisher": "DC Comics",
+        "alter_ego": "Dan Garret",
+        "first_appearance": "Mystery Men Comics #1",
+        "characters": "Dan Garret, Ted Kord, Jaime Reyes",
+        "description": "Es uno de los personajes más curiosos de DC Comics que ha pasado por diversas encarnaciones a lo largo de los años. En esta nueva versión, Blue Beetle es Jaime Reyes, un adolescente de Los Ángeles que encuentra un escarabajo mágico que le otorga una armadura alienígena que le confiere superpoderes como la capacidad de volar, la resistencia sobrehumana y la capacidad de disparar energía."
+      },
+      {
+        "id": "dc-black",
+        "superhero": "Black Canary",
+        "publisher": "DC Comics",
+        "alter_ego": "Dinah Drake",
+        "first_appearance": "Flash Comics #86",
+        "characters": "Dinah Drake, Dinah Lance",
+        "description": ""
+      },
+      {
+        "id": "marvel-spider",
+        "superhero": "Spiderman",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Peter Parker",
+        "first_appearance": "Amazing Fantasy #15",
+        "characters": "Peter Parker",
+        "description": "Es sin duda uno de los personajes más importantes de la historia de los cómics en el mundo, en especial de Marvel. Le da vida Peter Parker, un muchacho muy inteligente, pero su facilidad para adquirir conocimiento científico lo hace vulnerable a críticas y burlas, pues su físico no era muy prominente. Durante una visita hacía a una exhibición científica, fue picado por una araña que había sido expuesta a los experimentos radiactivos que allí se llevaban a cabo. Esto provocó que Parker adquiriera poderes sobrehumanos: la velocidad, fuerza y agilidad proporcionales a las de una araña de su tamaño. Un sentido arácnido que le avisa de peligros y la habilidad de adherirse y desplazarse por cualquier muro o pared, independientemente de su horizontalidad. Se las ingenia además para construir un mecanismo que le permite lanzar un viscoso producto químico a manera de telaraña."
+      },
+      {
+        "id": "marvel-captain",
+        "superhero": "Capitán América",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Steve Rogers",
+        "first_appearance": "Captain America Comics #1",
+        "characters": "Steve Rogers",
+        "description": "El Capitán América se viste en un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental S.S.S. (Suero SuperSoldado) para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial."
+      },
+      {
+        "id": "marvel-iron",
+        "superhero": "Iron Man",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Tony Stark",
+        "first_appearance": "Tales of Suspense #39",
+        "characters": "Tony Stark",
+        "description": "Anthony Edward “Tony” Stark es un multimillonario magnate empresarial y filántropo estadounidense, playboy e ingenioso científico, que sufrió una grave lesión en el pecho durante un secuestro en el Medio Oriente. Cuando sus captores intentaron forzarlo a construir un arma de destrucción masiva, elaboró, en cambio, una armadura para salvar su vida y escapar del cautiverio. Más tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que diseñaba a través de su compañía, Industrias Stark. Usa el traje y las versiones sucesivas para proteger al mundo como Iron Man. Aunque al principio ocultó su verdadera identidad, Stark finalmente declaró quién era en un anuncio público."
+      },
+      {
+        "id": "marvel-thor",
+        "superhero": "Thor",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Thor Odinson",
+        "first_appearance": "Journey into Myster #83",
+        "characters": "Thor Odinson",
+        "description": "Es un superhéroe y príncipe-guerrero de Asgard, dios del trueno, protector de la tierra y de los 9 reinos. Él empuña un martillo, el cual solo podrá ser levantado por alguien que “sea digno de él, el cual obtendrá el poder de Thor”. Es un excelente combatiente cuerpo a cuerpo, así como también resulta hábil en el combate armado, sobresaliendo en el uso del martillo de guerra, la espada, el hacha y la maza. Thor posee dos objetos que lo ayudan en combate: el Cinturón de Fuerza encantado y su arma distintiva, el martillo místico Mjolnir."
+      },
+      {
+        "id": "marvel-hulk",
+        "superhero": "Hulk",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Bruce Banner",
+        "first_appearance": "The Incredible Hulk #1",
+        "characters": "Bruce Banner",
+        "description": "Es un enorme ser humanoide de piel verde, corpulento y musculoso que tiene una gran fortaleza física. Su alter ego es el Dr. Robert Bruce Banner, un físico físicamente débil, socialmente retraído y reservado, las dos personalidades existentes como independientes y con resentimiento de la otra."
+      },
+      {
+        "id": "marvel-wolverine",
+        "superhero": "Wolverine",
+        "publisher": "Marvel Comics",
+        "alter_ego": "James Howlett",
+        "first_appearance": "The Incredible Hulk #180",
+        "characters": "James Howlett",
+        "description": "Es un mutante que posee sentidos afinados a los animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un factor de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de diversas formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores."
+      },
+      {
+        "id": "marvel-daredevil",
+        "superhero": "Daredevil",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Matthew Michael Murdock",
+        "first_appearance": "Daredevil #1",
+        "characters": "Matthew Michael Murdock",
+        "description": "Es comúnmente conocido por apodos como “El hombre sin miedo”​ y el “Diablo de Hell's Kitchen”. Los orígenes de Daredevil provienen de un accidente que tuvo en su infancia la cual le dio habilidades especiales. Mientras crecía en el vecindario irlandés-estadounidense de Hell's Kitchen de la clase obrera, históricamente áspero y asolado por el crimen, en la ciudad de Nueva York, Matt Murdock es cegado por una sustancia radioactiva que cae de un camión después de salvar a un hombre de ser atropellado por un auto. Si bien ya no puede ver, la exposición radioactiva aumenta sus sentidos restantes más allá de la capacidad humana normal y le da un “sentido de radar”."
+      },
+      {
+        "id": "marvel-hawkeye",
+        "superhero": "Hawkeye",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Clinton Francis Barton",
+        "first_appearance": "Tales of Suspense #57",
+        "characters": "Clinton Francis Barton",
+        "description": "A diferencia de la mayoría de los Vengadores, Hawkeye no tiene superpoderes. Si bien se destaca por su habilidad con el arco y la flecha, su cualidad de persona 'común y corriente' lo convierte en uno de los superhéroes más interesantes de Marvel. Además de tener una precisión extrema con el arco y la flecha, Hawkeye es un acróbata y combatiente entrenado en el ejército con una resistencia y agilidad excepcionales, sin duda, es uno de los mejores agentes de S.H.I.E.L.D."
+      },
+      {
+        "id": "marvel-cyclops",
+        "superhero": "Cyclops",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Scott Summers",
+        "first_appearance": "X-Men #1",
+        "characters": "Scott Summers",
+        "description": "Es un mutante con la capacidad de proyectar potentes explosiones de fuerza a través de sus ojos. Es visualmente distintivo su visor de rubí de cuarzo, lo que le confiere el nombre clave de Cyclops (Cíclope). Es un estratega brillante, y durante mucho tiempo fue el líder adjunto del grupo de mutantes conocidos como los X-Men. Hoy en día Cyclops finalmente reemplazó a su mentor, el Profesor X, para convertirse en el líder al mando de los X-Men."
+      },
+      {
+        "id": "marvel-silver",
+        "superhero": "Silver Surfer",
+        "publisher": "Marvel Comics",
+        "alter_ego": "Norrin Radd",
+        "first_appearance": "The Fantastic Four #48",
+        "characters": "Norrin Radd",
+        "description": "Nacido en el planeta Zenn-La, Silver Surfer (cuyo nombre real es Norrin Radd) forma parte de una raza humanoide extremadamente longeva y tecnológicamente avanzada que había creado una utopía mundial desprovista de crimen, enfermedad, hambre, pobreza y cualquier tipo de falta. Criado sin madre y con un padre atípicamente ambicioso, Norrin se convierte en un joven intelectual, animado a buscar el conocimiento, el progreso y el logro abandonando así el hedonismo sin objetivo predominante en su sociedad natal."
+      }
+    ]
+  }
