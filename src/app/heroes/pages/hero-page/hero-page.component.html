@@ -8,7 +8,7 @@
 
 <div *ngIf="hero; else divLoading" class="grid p-2">
 
-    <mat-card class="col-12 sm:col-6 mr-5" style="width: 300px; ">
+    <mat-card class="col-12 sm:col-6 mr-5" style="width: 300px;">
         <mat-card-header class="mb-2">
             <mat-card-title class="font-bold">{{ hero.superhero | uppercase }}</mat-card-title>
         </mat-card-header>    
@@ -41,7 +41,13 @@
                 </span>
             </mat-list>
     
-            <button mat-button mat-raised-button color="warn" (click)="goBack()">Atrás</button>    
+            <div class="flex justify-content-between">
+                <button mat-button mat-raised-button color="primary"
+                        [routerLink]="['/heroes/edit', hero.id ]">
+                    <mat-icon>edit</mat-icon> Editar
+                </button>
+                <button mat-button mat-raised-button color="warn" (click)="goBack()">Atrás</button>    
+            </div>
         </mat-card-content>
       </mat-card>
 
