@@ -17,7 +17,7 @@ export class SearchPageComponent {
     public heroes: Hero[] = [];
     public selectedHero?: Hero;
   
-    constructor(private _heroesService: HeroesService, private router: Router) { }
+    constructor(private _heroesService: HeroesService, private _router: Router) { }
   
     searchHero() {
         const value: string = this.searchInput.value || '';    
@@ -36,7 +36,7 @@ export class SearchPageComponent {
         this._heroesService.getHeroById(hero.id)
             .subscribe( heroe => {
                 this.selectedHero = heroe;
-                this.router.navigate(['/heroes', this.selectedHero?.id]);
+                this._router.navigate(['/heroes', this.selectedHero?.id]);
             });
     }
 }

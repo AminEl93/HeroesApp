@@ -37,10 +37,10 @@ export class NewHeroPageComponent implements OnInit {
 
     constructor(
         private _heroesService: HeroesService,
-        private activatedRoute: ActivatedRoute,
-        private router: Router,
+        private _activatedRoute: ActivatedRoute,
+        private _router: Router,
         private _snackbar: MatSnackBar,
-        private dialog: MatDialog
+        private _dialog: MatDialog
     ) { }
 
     // Obtener el héroe actual
@@ -50,14 +50,14 @@ export class NewHeroPageComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        if (!this.router.url.includes('edit')) return;
+        if (!this._router.url.includes('edit')) return;
 
         // Obtener un héroe mediante su ID
-        this.activatedRoute.params
+        this._activatedRoute.params
             .pipe(
                 switchMap( ({id}) => this._heroesService.getHeroById(id) ),
             ).subscribe(hero => {
-                if (!hero) { return this.router.navigateByUrl('/'); }
+                if (!hero) { return this._router.navigateByUrl('/'); }
                 this.heroForm.reset(hero);
                 return;
             });
@@ -70,7 +70,7 @@ export class NewHeroPageComponent implements OnInit {
             // Guardar un héroe actualizado
             this._heroesService.updateHero(this.currentHero)
                 .subscribe(hero => {
-                    this.router.navigate(['/heroes/list']);
+                    this._router.navigate(['/heroes/list']);
                     this.showSnackbar(`${hero.superhero} actualizado!`);
                 });
       
@@ -80,7 +80,7 @@ export class NewHeroPageComponent implements OnInit {
         // Guardar un héroe creado
         this._heroesService.addHero(this.currentHero)
             .subscribe(hero => {
-                this.router.navigate(['/heroes/list']);
+                this._router.navigate(['/heroes/list']);
                 this.showSnackbar(`${hero.superhero} creado!`);
             });      
     }
@@ -89,7 +89,7 @@ export class NewHeroPageComponent implements OnInit {
     onDeleteHero() {
         if (!this.currentHero.id) throw Error('Hero id is required');
     
-        const dialogRef = this.dialog.open(ConfirmDialogComponent, {
+        const dialogRef = this._dialog.open(ConfirmDialogComponent, {
             data: this.heroForm.value
         });
     
@@ -100,7 +100,7 @@ export class NewHeroPageComponent implements OnInit {
                 filter( (wasDeleted: boolean) => wasDeleted )
             )
             .subscribe(() => {
-                this.router.navigate(['/heroes']);
+                this._router.navigate(['/heroes']);
             });
     
         /*
@@ -109,7 +109,7 @@ export class NewHeroPageComponent implements OnInit {
                 if (!result) return;            
                 this._heroesService.deleteHeroById(this.currentHero.id)
                     .subscribe(wasDeleted => {
-                        if (wasDeleted) { this.router.navigate(['/heroes']); }
+                        if (wasDeleted) { this._router.navigate(['/heroes']); }
                     });
             });
         */    
