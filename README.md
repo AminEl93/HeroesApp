@@ -11,6 +11,6 @@ El código de este proeycto se ha generado con la versión 16.0.3 de [Angular CL
 * Para mantener abierta la **base de datos** de los héroes, hay que seguir estos pasos:
     - Instalar el paquete de NodeJS llamado [Json Server](https://www.npmjs.com/package/json-server) para crear una API REST falsa a partir de un archivo JSON y así poder trabajar con el backend.
     - Ejecutar el comando `npm run backend` para levantar el backend que contiene todos los héroes. Este comando SIEMPRE se ha de estar ejecutando.
-    - Tener abierto el Postman para consultar las diferentes URLs a las cuáles acceder. Por ejemplo, para ver los héroes, al URL es `http://localhost:3000/heroes`.
+    - Tener abierto el Postman para consultar las diferentes URLs a las cuáles acceder. Por ejemplo, para ver los héroes, la URL es `http://localhost:3000/heroes`.
 
 * Para los **estilos y temas**, se ha utilizado [Angular Material](https://material.angular.io) y [PrimeFlex](https://www.primefaces.org/primeflex).
