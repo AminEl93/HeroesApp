@@ -1,6 +1,8 @@
 # HeroesApp
 
-Esta aplicación consiste en un listado de héroes. Se pueden buscar, agregar uno nuevo, editarlo, actualizarlo o eliminarlo. Se ha generado con la versión 16.0.3 de [Angular CLI](https://github.com/angular/angular-cli), con la versión 18.16.0 de NodeJS y con la versión 9.6.6 de npm.
+Esta aplicación consiste en un listado de héroes. Cada uno de ellos se puede editar/actualizar, eliminar o ver su información. Además, se pueden crear nuevos héroes y buscarlos por su nombre. Se ha implementado un sencillo sistema de protección de rutas y autenticación como base para futuras aplicaciones que necesiten autenticación real.
+
+El código de este proeycto se ha generado con la versión 16.0.3 de [Angular CLI](https://github.com/angular/angular-cli), con la versión 18.16.0 de NodeJS y con la versión 9.6.6 de npm.
 
 ## Iniciar aplicación y servidor de desarrollo (sólo en Dev)
 
